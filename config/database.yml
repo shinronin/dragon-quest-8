@@ -1,0 +1,12 @@
+login: &login
+  adapter: mysql2
+  encoding: utf8
+  collation: utf8_general_ci
+  pool: 5
+  username: root
+  password: doug
+  socket: /var/run/mysqld/mysqld.sock
+
+development:
+  <<: *login
+  database: dq8_development
