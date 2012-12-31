@@ -1,0 +1,19 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/Fixtures.html
+
+one:
+  name: MyString
+  type: 
+  bonus: 1
+  other_bonus: MyString
+  cost: 1
+  value: 1
+  shop_location: MyString
+
+two:
+  name: MyString
+  type: 
+  bonus: 1
+  other_bonus: MyString
+  cost: 1
+  value: 1
+  shop_location: MyString

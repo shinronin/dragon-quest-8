@@ -1,0 +1,8 @@
+export rvm_trust_rvmrcs_flag=1
+
+if [ -e '.rvmrc_custom' ]; then
+  source .rvmrc_custom;
+else
+  rvm --create use ruby-1.9.3-p194@dq8;
+fi
+
