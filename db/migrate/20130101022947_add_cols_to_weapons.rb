@@ -1,6 +1,6 @@
 class AddColsToWeapons < ActiveRecord::Migration
   def change
-    change_table :weapons, :force => true do |t|
+    change_table :weapons do |t|
       t.remove :shop_location
       t.boolean :buy
       t.boolean :alchemy

@@ -9,6 +9,7 @@
   value: 275
   buy: 1
   alechemy: 1
+  treasure: 0
 
 -
   name: Golden Axe
@@ -19,6 +20,7 @@
   value: 5000
   buy: 0
   alchemy: 1
+  treasure: 0
 
 -
   name: Iron Axe
@@ -29,3 +31,58 @@
   value: 1300
   buy: 1
   alchemy: 1
+  treasure: 0
+
+-
+  name: Battle Axe
+  type: Axe
+  bonus: 45
+  other_bonus:
+  cost: 4300
+  value: 2150
+  buy: 1
+  alchemy: 0
+  treasure: 0
+
+-
+  name: Bandit Axe
+  type: Axe
+  bonus: 55
+  other_bonus:
+  cost:
+  value: 6500
+  buy: 0
+  alchemy: 1
+  treasure: 1
+
+-
+  name: Moon Axe
+  type: Axe
+  bonus: 60
+  other_bonus:
+  cost:
+  value: 11000
+  buy: 0
+  alchemy: 1
+  treasure: 1
+
+-
+  name: King Axe
+  type: Axe
+  bonus: 80
+  other_bonus:
+  cost: 17000
+  value: 8500
+  buy: 1
+  alchemy: 1
+
+-
+  name: Conqueror's Axe
+  type: Axe
+  bonus: 103
+  other_bonus:
+  cost:
+  value: 7500
+  buy: 0
+  alchemy: 0
+  treasure: 1
