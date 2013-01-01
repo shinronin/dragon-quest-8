@@ -1,19 +1,31 @@
 # Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/Fixtures.html
 
-one:
-  name: MyString
-  type: 
-  bonus: 1
-  other_bonus: MyString
-  cost: 1
-  value: 1
-  shop_location: MyString
+-
+  name: Stone Axe
+  type: Axe
+  bonus: 20
+  other_bonus:
+  cost: 550
+  value: 275
+  buy: 1
+  alechemy: 1
 
-two:
-  name: MyString
-  type: 
-  bonus: 1
-  other_bonus: MyString
-  cost: 1
-  value: 1
-  shop_location: MyString
+-
+  name: Golden Axe
+  type: Axe
+  bonus: 27
+  other_bonus:
+  cost:
+  value: 5000
+  buy: 0
+  alchemy: 1
+
+-
+  name: Iron Axe
+  type: Axe
+  bonus: 38
+  other_bonus:
+  cost: 2600
+  value: 1300
+  buy: 1
+  alchemy: 1
