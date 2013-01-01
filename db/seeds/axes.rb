@@ -1,4 +1,4 @@
-weapons = [
+axes = [
   {
 	  :name => 'Stone Axe',
 	  :type => 'Axe',
@@ -96,7 +96,7 @@ weapons = [
   }
 ]
 
-weapons.each do |hash|
+axes.each do |hash|
   weapon = Weapon.new
   hash.each do |attr, value|
     weapon.update_attribute(attr, value)
