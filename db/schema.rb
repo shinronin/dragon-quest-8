@@ -11,22 +11,22 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20130101033902) do
+ActiveRecord::Schema.define(:version => 20130101054204) do
 
   create_table "weapons", :force => true do |t|
-    t.string  "name"
-    t.string  "type"
-    t.integer "bonus"
+    t.string  "name",        :null => false
+    t.string  "type",        :null => false
+    t.integer "bonus",       :null => false
     t.string  "other_bonus"
     t.integer "cost"
-    t.integer "value"
-    t.boolean "buy"
-    t.boolean "alchemy"
-    t.boolean "treasure"
+    t.integer "value",       :null => false
+    t.boolean "buy",         :null => false
+    t.boolean "alchemy",     :null => false
+    t.boolean "treasure",    :null => false
   end
 
   create_table "wielders", :force => true do |t|
-    t.string "name"
+    t.string "name", :null => false
   end
 
 end
