@@ -15,7 +15,7 @@ ActiveRecord::Schema.define(:version => 20130101054204) do
 
   create_table "weapons", :force => true do |t|
     t.string  "name",        :null => false
-    t.string  "type",        :null => false
+    t.string  "kind",        :null => false
     t.integer "bonus",       :null => false
     t.string  "other_bonus"
     t.integer "cost"
