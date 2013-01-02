@@ -11,7 +11,11 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20130101054204) do
+ActiveRecord::Schema.define(:version => 20130102014222) do
+
+  create_table "characters", :force => true do |t|
+    t.string "name", :null => false
+  end
 
   create_table "weapons", :force => true do |t|
     t.string  "name",        :null => false
@@ -23,10 +27,6 @@ ActiveRecord::Schema.define(:version => 20130101054204) do
     t.boolean "buy",         :null => false
     t.boolean "alchemy",     :null => false
     t.boolean "treasure",    :null => false
-  end
-
-  create_table "wielders", :force => true do |t|
-    t.string "name", :null => false
   end
 
 end
