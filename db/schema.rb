@@ -11,27 +11,27 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20130102020807) do
+ActiveRecord::Schema.define(:version => 0) do
 
   create_table "characters", :force => true do |t|
-    t.string "name", :null => false
+    t.string "name"
   end
 
   create_table "weapons", :force => true do |t|
-    t.string  "name",        :null => false
-    t.string  "kind",        :null => false
-    t.integer "bonus",       :null => false
+    t.string  "name"
+    t.string  "kind"
+    t.integer "bonus"
     t.string  "other_bonus"
     t.integer "cost"
-    t.integer "value",       :null => false
-    t.boolean "buy",         :null => false
-    t.boolean "alchemy",     :null => false
-    t.boolean "treasure",    :null => false
+    t.integer "value"
+    t.boolean "buy"
+    t.boolean "alchemy"
+    t.boolean "treasure"
   end
 
   create_table "wielders", :force => true do |t|
-    t.integer "weapon_id",    :null => false
-    t.integer "character_id", :null => false
+    t.integer "weapon_id"
+    t.integer "character_id"
   end
 
 end
